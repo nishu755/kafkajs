@@ -43,7 +43,7 @@ await producer.send({
 await producer.disconnect()
 ```
 
-Finally, to verify that our message has indeed been produced to the topic, let's create a consumer to consume our message:
+Finally, to verify that our message has indeed been produced to the topic, let's create a consumer to consume our message
 
 ```javascript
 const consumer = kafka.consumer({ groupId: 'test-group' })
